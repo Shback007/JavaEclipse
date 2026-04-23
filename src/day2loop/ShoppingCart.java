@@ -9,7 +9,7 @@ public class ShoppingCart {
 		System.out.println("Enter Item Prices:(Enter 0 to finish)");
 		
 		while (true) {
-			System.out.println("Enter Price: ");
+			System.out.print("Enter Price: ");
 			price=sc.nextDouble();
 			if(price==0)
 				break;

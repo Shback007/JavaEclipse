@@ -5,10 +5,10 @@ public class Evengenerator {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter a number:");
 		int n= sc.nextInt();
-		while(n>=1) {
-			if(n%2==0)
-				System.out.println(n);
-			n--;
+		int i = 2;
+		while (i < n) {
+		    System.out.println(i);
+		    i += 2;
 		}
 		sc.close();
 	}
