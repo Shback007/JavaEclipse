@@ -10,5 +10,6 @@ public class Evengenerator {
 				System.out.println(n);
 			n--;
 		}
+		sc.close();
 	}
 }
