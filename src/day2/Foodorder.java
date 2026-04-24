@@ -15,19 +15,19 @@ public class Foodorder {
 		
 		switch(choice) {
 		 case 1:
-             System.out.println("You selected Pizza");
+             System.out.println("You selected Pizza | Price: Rs 150");
              break;
          case 2:
-             System.out.println("You selected Pasta ");
+             System.out.println("You selected Pasta | Price: Rs 80 ");
              break;
          case 3:
-        	 System.out.println("You selected Burger ");
+        	 System.out.println("You selected Burger | Price: Rs 100 ");
         	 break;
          case 4:
-        	 System.out.println("You selected Chowmein ");
+        	 System.out.println("You selected Chowmein | Price: Rs 120 ");
         	 break;
          case 5:
-        	 System.out.println("You selected Sandwich ");
+        	 System.out.println("You selected Sandwich | Price: Rs 70 ");
         	 break;
          default:
              System.out.println("Invalid choice. Please try again."); 
