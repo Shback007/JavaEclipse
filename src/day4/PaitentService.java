@@ -26,8 +26,5 @@ class PaitentService implements Paitentserv {
 			System.out.println("No Paitent registered");
 		}
 	}
-	public Paitent getPaitent(int id) {
-		return map.get(id);
-	}
 
 }

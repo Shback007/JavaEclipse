@@ -7,7 +7,7 @@ class Doctors extends Doctor{
 	
 	void diagnose(Paitent P) {
 		if(specialization.equalsIgnoreCase("cardiologist")) {
-			if(P.getIllness().equalsIgnoreCase("heart")) {
+			if(P.getIllness().contains("heart")) {
 				System.out.println("Cardiologist " + name + 
 						" treats heart paitent " + P.getName());
 				System.out.println();
