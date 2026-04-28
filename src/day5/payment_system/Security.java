@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public final class Security {
 
-    public String encrypt(String data) {
+     String encrypt(String data) {
 		return data;
     }
 
@@ -22,3 +22,7 @@ public final class Security {
 		sc.close();
 	}
 }
+
+//class Administrator extends Security{
+//	
+//}

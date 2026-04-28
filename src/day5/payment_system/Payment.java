@@ -1,7 +1,7 @@
 package day5.payment_system;
 
 public abstract class Payment {
-	public final void processPayment(int amount) {
+	final void processPayment(int amount) {
 		System.out.println("Secure Processing started");
 		
 		pay(amount);
